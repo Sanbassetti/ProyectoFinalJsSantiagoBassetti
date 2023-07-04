@@ -1,0 +1,37 @@
+body{
+    background-image: url(/fotos/fondo2.avif) ;
+    opacity: 1;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 16rem;
+    color: whitesmoke;
+    -webkit-text-stroke: 2px black;
+}
+
+.form-control{
+    border: 1px solid black !important;
+    
+    &:focus {
+        border: black;
+    }
+
+    &:active {
+        border: black;
+    }
+}
+ 
+input:focus, select:focus, select, input.form-control:focus {
+
+    outline:none !important;
+
+    outline-width: 0 !important;
+
+    box-shadow: none;
+
+    -moz-box-shadow: none;
+
+    -webkit-box-shadow: none;}
+
+  
